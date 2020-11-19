@@ -1,14 +1,13 @@
 package ex1.tests;
 
 import ex1.src.*;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
+import java.io.IOException;
 import java.time.Duration;
 import java.util.LinkedList;
 import java.util.List;
 import java.io.File;
-import java.io.IOException;
 
 class WGraph_AlgoTest {
     private WGraph_DSTest wGraph_dsTest = new WGraph_DSTest();
