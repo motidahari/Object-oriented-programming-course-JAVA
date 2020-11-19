@@ -1,4 +1,6 @@
-import ex1.*;
+package ex1.tests;
+
+import ex1.src.*;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.io.IOException;

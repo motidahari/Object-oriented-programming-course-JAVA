@@ -1,4 +1,9 @@
-import ex1.*;
+package ex1.tests;
+
+import ex1.src.WGraph_DS;
+import ex1.src.node_info;
+import ex1.src.weighted_graph;
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;

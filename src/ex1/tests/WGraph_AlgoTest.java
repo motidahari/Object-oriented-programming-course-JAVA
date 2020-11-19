@@ -1,4 +1,6 @@
-import ex1.*;
+package ex1.tests;
+
+import ex1.src.*;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 
 class WGraph_AlgoTest {
-    private WGraph_DSTest  wGraph_dsTest = new WGraph_DSTest();
+    private WGraph_DSTest wGraph_dsTest = new WGraph_DSTest();
     private static String path ="D:\\";
     private static String nameFile ="newFile";
 
