@@ -3,7 +3,7 @@ src Readme.
 @author Moti Dahari
 @ID: 308212570
 
-To run the project, go to the tests folder, run the project from the file WGraph_AlgoTest or WGraph_DSTest
+To run the project, go to the tests folder. run the project from the file WGraph_AlgoTest or WGraph_DSTest.
 In this project we will implement the interfaces.
 There are three classes which we will use in order to implement the interfaces.
 (We will elaborate each class by it's section)
@@ -381,55 +381,55 @@ In this class we will perform the following steps:
 
 
     /**
-     * create graph with 0 vertex and check every function in the the class
+     * create graph with 0 vertex and check every function in the class
      **/
     @Test
     void test1();
     
     /**
-     * create graph with 1 vertex and check every function in the the class
+     * create graph with 1 vertex and check every function in the class
      **/
     @Test
     void test2() ;
     
     /**
-     * create graph with 50 vertex and check every function in the the class
+     * create graph with 50 vertex and check every function in the class
      **/
     @Test
     void test3() ;
     
     /**
-     * create graph with 10 vertex and check every function in the the class
+     * create graph with 10 vertex and check every function in the class
      **/
     @Test
     void test4() ;
     
     /**
-     * create graph with 9 vertex and check every function in the the class
+     * create graph with 9 vertex and check every function in the class
      **/
     @Test
     void test5() ;
     
     /**
-     * create graph with 10 vertex and check every function in the the class
+     * create graph with 10 vertex and check every function in the class
      **/
     @Test
     void test6() ;
     
     /**
-     * create graph with 10 vertex and check every function in the the class
+     * create graph with 10 vertex and check every function in the class
      **/
     @Test
     void test7() ;
     
     /**
-     * create graph with 50 vertex and check every function in the the class
+     * create graph with 50 vertex and check every function in the class
      **/
     @Test
     void test8 ();
     
     /**
-     * create graph with 1000000 vertex and check every function in the the class
+     * create graph with 1000000 vertex and check every function in the class
      **/
     @Test
     void test9();
@@ -495,55 +495,55 @@ This class is designed to check the class of WGraph_DS
 In this class we will perform the following steps:
 
     /**
-     * create graph with 0 vertex and check every function in the the class
+     * create graph with 0 vertex and check every function in the class
      **/
     @Test
     void test1();
     
     /**
-     * create graph with 1 vertex and check every function in the the class
+     * create graph with 1 vertex and check every function in the class
      **/
     @Test
     void test2() ;
     
     /**
-     * create graph with 50 vertex and check every function in the the class
+     * create graph with 50 vertex and check every function in the class
      **/
     @Test
     void test3() throws IOException;
     
     /**
-     * create graph with 10 vertex and check every function in the the class
+     * create graph with 10 vertex and check every function in the class
      **/
     @Test
     void test4() ;
     
     /**
-     * create graph with 9 vertex and check every function in the the class
+     * create graph with 9 vertex and check every function in the class
      **/
     @Test
     void test5() ;
     
     /**
-     * create graph with 10 vertex and check every function in the the class
+     * create graph with 10 vertex and check every function in the class
      **/
     @Test
     void test6();
     
     /**
-     * create graph with 10 vertex and check every function in the the class
+     * create graph with 10 vertex and check every function in the class
      **/
     @Test
     void test7();
     
     /**
-     * create graph with 50 vertex and check every function in the the class
+     * create graph with 50 vertex and check every function in the class
      **/
     @Test
     void test8 ();
     
     /**
-     * create graph with 1000000 vertex and check every function in the the class
+     * create graph with 1000000 vertex and check every function in the class
      **/
     @Test
     void test9();

@@ -16,11 +16,11 @@ public class testGraphAlgo {
     /*
     * Each test should be run separately
     */
-    test1();
+    //test1();
     //test2();
     //test3();
     //test4();
-    //test5();
+    test5();
     //test6();
 
     }
@@ -328,23 +328,23 @@ public class testGraphAlgo {
 }
     private static void test5() {
         System.out.println("test 5");
+        System.out.println();
 
         graph graph = new Graph_DS();
         graph.addNode(new NodeData());
         int key = 0;
         for (node_data n : graph.getV()){
-            System.out.println((key = n.getKey()));
+            System.out.println("key => " + (key = n.getKey()));
         }
 
 
 
         graph_algorithms algo = new Graph_Algo();
         algo.init(graph);
-        System.out.println(algo.shortestPathDist(key,key));
-
-        System.out.println(algo.shortestPath(key,key));
-        List<node_data> list = algo.shortestPath(key,key);
-        System.out.println(list.get(0).getKey());
+        System.out.println("shortestPathDist between "+key+" and "+key+" should be 0 = " + algo.shortestPathDist(key,key));
+        List<node_data> list;
+        printListOfPath((list = algo.shortestPath(key,key)), 0 , 0);
+        System.out.println("list.get(0).getKey() = " + list.get(0).getKey());
 
 
 
