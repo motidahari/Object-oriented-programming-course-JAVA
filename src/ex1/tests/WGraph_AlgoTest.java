@@ -1,7 +1,7 @@
 package ex1.tests;
 
 import ex1.src.*;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.Duration;
